@@ -1,0 +1,99 @@
+/* Polices personnalisées */
+@font-face {
+    font-family: "YoureInvitedHeavy";
+    src: url("/assets/font/YoureInvitedHeavy.otf") format("opentype");
+}
+@font-face {
+    font-family: "Aposiopesis Condensed";
+    src: url("/assets/font/Aposiopesis Condensed.otf") format("opentype");
+}
+@font-face {
+    font-family: "Uniform_Rounded_Condensed_Ultra";
+    src: url("/assets/font/Uniform_Rounded_Condensed_Ultra.ttf") format("truetype");
+}
+@font-face {
+    font-family: "CFSchoolHandwriting-Regular";
+    src: url("/assets/font/CFSchoolHandwriting-Regular.ttf") format("truetype");
+}
+/* Navigation */
+nav {
+    background: #f7dead;
+    position: fixed;
+    padding: 35px;
+    width: 100%;
+    z-index: 1000;
+
+}
+nav a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    outline: none;
+}
+nav a:hover {
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+nav img {
+    height: 40px;
+}
+#chiant2 {
+    display: flex;
+}
+#chiant3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 100vh;
+}
+nav p {
+    font-family: YoureInvitedHeavy;
+    font-size: 30px;
+
+}
+nav li p {
+    cursor: pointer;
+    width: fit-content;
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: bold;
+}
+nav li p:hover {
+    color: orange;
+}
+nav li {
+    list-style-type: none;
+    width: fit-content;
+}
+.sous {
+    display: none;
+    background-color: white;
+    position: absolute;
+    border: black 1px solid;
+    padding: 20px;
+    list-style-type: none;
+}
+li:hover .sous {
+    display: block;
+}
+.sous li {
+    float: none;
+    text-align: left;
+}
+#connexion {
+    color: white;
+    border: black 1px solid;
+    border-radius: 8px;
+    background: #c04814;
+    padding-inline: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+#connexion:hover {
+    color: orange;
+}
+#home {
+    padding-right: 25px;
+}

@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+section{
+    background: #fdfdfd;
+    padding-top: 20%;
+    padding-bottom: 600px;
+
+}
+
+input{
+    border-radius: 15px;
+    background: #eca2a2;
+    padding: 30px;
+}
+form{
+
+    margin-left: 30%;
+    background: #ed5e5e;
+    width: fit-content;
+    padding: 80px;
+    border-radius: 15px;
+}

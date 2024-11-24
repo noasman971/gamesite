@@ -1,0 +1,75 @@
+@import url(https://db.onlinewebfonts.com/c/508eeb3849362bb16844cc1d5ac1f88a?family=Robolt+x+Hand+Light);
+
+/* Polices personnalisées */
+@font-face {
+    font-family: "YoureInvitedHeavy";
+    src: url("/assets/font/YoureInvitedHeavy.otf") format("opentype");
+}
+@font-face {
+    font-family: "Aposiopesis Condensed";
+    src: url("/assets/font/Aposiopesis Condensed.otf") format("opentype");
+}
+@font-face {
+    font-family: "Uniform_Rounded_Condensed_Ultra";
+    src: url("/assets/font/Uniform_Rounded_Condensed_Ultra.ttf") format("truetype");
+}
+@font-face {
+    font-family: "CFSchoolHandwriting-Regular";
+    src: url("/assets/font/CFSchoolHandwriting-Regular.ttf") format("truetype");
+}
+
+
+/* Footer */
+footer {
+    background: #f7dead;
+    color: black;
+    width: 100%;
+    padding-top: 20px;
+}
+footer a {
+    text-decoration: none;
+    font-family: Poppins;
+    margin-right: 10px;
+}
+footer p {
+    font-family: Poppins;
+    text-align: center;
+}
+
+footer img{
+    width: 250px;
+
+
+}
+
+
+
+#info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+footer ul{
+    font-family: "Robolt x Hand Light";
+    font-size: 30px;
+}
+footer a{
+    font-family: "Robolt x Hand Light";
+    font-size: 30px;
+
+}
+footer h2{
+    padding-bottom: 10px;
+    font-family: Uniform_Rounded_Condensed_Ultra;
+}
+footer li img{
+    width: 60px;
+}
+footer ul ul{
+    list-style: none;
+    display: flex;
+}
+
+
