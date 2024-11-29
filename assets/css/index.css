@@ -1,4 +1,6 @@
 /* Polices personnalisées */
+@import url(https://db.onlinewebfonts.com/c/508eeb3849362bb16844cc1d5ac1f88a?family=Robolt+x+Hand+Light);
+
 @font-face {
     font-family: "YoureInvitedHeavy";
     src: url("/assets/font/YoureInvitedHeavy.otf") format("opentype");
@@ -15,7 +17,6 @@
     font-family: "CFSchoolHandwriting-Regular";
     src: url("/assets/font/CFSchoolHandwriting-Regular.ttf") format("truetype");
 }
-@import url(https://db.onlinewebfonts.com/c/508eeb3849362bb16844cc1d5ac1f88a?family=Robolt+x+Hand+Light);
 
 /* Réinitialisation globale */
 * {
@@ -27,32 +28,40 @@
 
 /* Header */
 header {
-    padding: 400px;
-    display: flex;
-    justify-content: space-between;
-    gap: 30vh;
+    padding-top: 15%;
+    padding-bottom: 15%;
     background: #fdfdfd;
 }
 header h1 {
     font-family: Uniform_Rounded_Condensed_Ultra;
     font-size: 120px;
     text-align: left;
+    width: 100%;
 }
 
 
 header p {
     font-family: poppins;
+    width: 89%;
+
 }
 
 
-header img {
-    float: right;
-}
-
-#welcome{
+.container {
     display: flex;
-    flex-direction: column;
-    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#welcome{
+    max-width: 50%;
+    margin-right: 20px;
+}
+header figure {
+    width: fit-content;
+    height: fit-content;
 }
 .animate__animated.animate__bounceInDown {
     --animate-duration: 1.5s;
@@ -76,7 +85,21 @@ section h1 {
     font-family: Uniform_Rounded_Condensed_Ultra;
     font-size: 71px;
     text-align: center;
+    margin: 0 0 20px;
+
 }
+
+.image{
+    max-width: 50%;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 #choice {
     display: flex;
     justify-content: center;
